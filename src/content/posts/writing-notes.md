@@ -1,40 +1,40 @@
 ---
-title: 小站写作手册
+title: A Guide to Writing on This Blog
 published: 2026-09-22
-description: 新建文章、插入图片，以及发布到 GitHub Pages 的简单流程。
-tags: [博客, Markdown]
-category: 笔记
-draft: false
+description: A simple workflow for creating posts, adding images, and publishing to GitHub Pages.
+tags: [Blogging, Markdown]
+category: Notes
+draft: true
 ---
 
-## 新建文章
+## Create a Post
 
-在博客项目目录运行：
+Run this command from the blog project directory:
 
 ```powershell
 pnpm new-post my-first-note
 ```
 
-打开 src/content/posts/ 中生成的 Markdown 文件，修改标题、日期、简介与正文。文件名建议使用英文和短横线，标题可以使用中文。
+Open the generated Markdown file in `src/content/posts/` and edit its title, date, description, and body. Use lowercase English words separated by hyphens for the filename. The title can use any language.
 
-## 图片与草稿
+## Images and Drafts
 
-图片可以放在 public/images/ 中，在正文里使用 Markdown 图片语法引用 /images/文件名。
+Place images in `public/images/` and reference them in the post using Markdown image syntax, such as `![Image description](/images/photo.jpg)`.
 
-文章顶部的 draft: true 表示草稿；准备发布时改为 draft: false。开发模式会显示草稿，正式构建会隐藏它们。
+Set `draft: true` in the frontmatter to keep a post as a draft. Change it to `draft: false` when it is ready to publish. Drafts appear in development mode but are excluded from production builds.
 
-## 预览与发布
+## Preview and Publish
 
 ```powershell
 pnpm dev
 ```
 
-正式发布前执行 pnpm build 检查构建，再用 pnpm preview 预览正式版本。
+Before publishing, run `pnpm build` to check the production build, then use `pnpm preview` to preview it locally.
 
 ```powershell
 git add .
-git commit -m "更新博客文章"
+git commit -m "Update blog posts"
 git push
 ```
 
-仓库开启 GitHub Pages 的 GitHub Actions 部署后，每次推送到 main 都会自动更新网站。
+Once GitHub Actions deployment is enabled for GitHub Pages, each push to `main` automatically rebuilds and updates the website.

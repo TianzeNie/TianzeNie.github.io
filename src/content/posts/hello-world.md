@@ -1,18 +1,18 @@
 ---
-title: 你好，世界
+title: Hello, World
 published: 2026-09-22
-description: 给想法留一个安静的地方。从这里开始，慢慢记录。
-tags: [随笔]
-category: 日常
+description: ''
+tags: [Reflections]
+category: nothing
 draft: false
 ---
 
-欢迎来到这个小站。
+Welcome to my little corner of the web.
 
-这里是学习笔记、技术实践和日常想法的收藏夹。写下一点，积累一点，让零散的思考有迹可循。
+This is a collection of study notes, hands-on experiments, and everyday thoughts. One note at a time, scattered ideas become something I can return to.
 
-## 从一篇记录开始
+## Start with a Single Note
 
-不必等到完全想明白再落笔。一个刚解决的问题、一段值得回看的代码，或一个新的发现，都可以成为开始。
+There is no need to have everything figured out before writing. A problem just solved, a useful piece of code, or a new discovery can be a good place to begin.
 
-愿这里慢慢长成一个有内容，也有温度的地方。
+I hope this space grows into somewhere useful, thoughtful, and welcoming.
