@@ -8,9 +8,9 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Tianze 的小站",
-	subtitle: "记录学习，也收藏日常",
-	lang: "zh_CN",
+	title: "Tianze's Blog",
+	subtitle: "Notes on learning and everyday life",
+	lang: "en",
 	themeColor: { hue: 235, fixed: true },
 	banner: {
 		enable: true,
@@ -32,7 +32,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png",
 	name: "Tianze",
-	bio: "记录学习，也收藏日常。",
+	bio: "Learning, building, and collecting little moments.",
 	links: [
 		{
 			name: "GitHub",
