@@ -150,3 +150,16 @@
     }
   }
 }
+/* A quiet blue palette with compact illustration details. */
+body { font-family: "Roboto", "PingFang SC", "Microsoft YaHei", sans-serif; }
+.card-base { border: 1px solid rgb(110 140 165 / 0.10); }
+#banner img { filter: saturate(0.48); }
+.custom-md { line-height: 1.9; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
