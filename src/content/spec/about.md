@@ -1,6 +1,6 @@
 # About
 
-Hello, and welcome to nekko's blog.
+Hello, and welcome to Nekko's blog.
 
 This is a place for study notes, hands-on projects, and everyday moments worth keeping.
 
@@ -8,7 +8,7 @@ With each entry, I hope to make my thoughts a little clearer.
 
 ## Find Me
 
-- [GitHub · nekko](https://github.com/TianzeNie)
+- [GitHub · Nekko](https://github.com/TianzeNie)
 - [Subscribe via RSS](/rss.xml)
 
 ## About This Website
