@@ -39,6 +39,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/TianzeNie",
 		},
+		{
+			name: "Codeforces · Nekkko",
+			icon: "fa6-solid:code",
+			url: "https://codeforces.com/profile/Nekkko",
+		},
 	],
 };
 export const licenseConfig: LicenseConfig = {

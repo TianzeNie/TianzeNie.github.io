@@ -9,6 +9,7 @@ With each entry, I hope to make my thoughts a little clearer.
 ## Find Me
 
 - [GitHub · Nekko](https://github.com/TianzeNie)
+- [Codeforces · Nekkko](https://codeforces.com/profile/Nekkko)
 - [Subscribe via RSS](/rss.xml)
 
 ## About This Website
