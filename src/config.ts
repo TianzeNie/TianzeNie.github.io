@@ -41,7 +41,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Codeforces · Nekkko",
-			icon: "fa6-solid:code",
+			icon: "codeforces",
 			url: "https://codeforces.com/profile/Nekkko",
 		},
 	],
